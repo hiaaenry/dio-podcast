@@ -4,3 +4,8 @@ export interface Podcast {
   videoId: string;
   categories: string[];
 }
+
+export interface ResponsePodcast {
+  statusCode: number;
+  body: Podcast[];
+}
